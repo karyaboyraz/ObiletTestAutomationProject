@@ -146,7 +146,7 @@ ObiletTestAutomationProject/
 │               └── default/
 │                   └── config.properties
 ├── specs/
-│   └── (Gauge spesifikasyon dosyalarınız)
+│   └── (Gauge spesifikasyon dosyaları)
 ```
 
 ### Açıklamalar:
@@ -154,7 +154,7 @@ ObiletTestAutomationProject/
 - `pom.xml`: Maven yapılandırma dosyası.
 - `manifest.json`: Gauge projesinin yapılandırma dosyası.
 - `src/test/java/`: Test kodlarınızın bulunduğu dizin.
-- `src/test/resources/`: Test kaynak dosyaları ve yapılandırmaları.
+- `src/test/resources/config.properties/`: Test kaynak dosyaları ve yapılandırmaları.
 - `specs/`: Gauge spesifikasyonlarınızı içeren dizin.
 
 ## Maven Bağımlılıkları
@@ -169,8 +169,6 @@ ObiletTestAutomationProject/
 - **Reflections**: Dinamik sınıf tarama için (version: 0.10.2)
 - **JavaFaker**: Test verisi oluşturmak için (version: 1.0.2)
 - **Rest-Assured**: API testi için (version: 5.4.0)
-- **SLF4J ve Logback**: Loglama işlemleri için (versions: 2.0.7 ve 1.4.11)
-
 
 ## Geliştirici
 
